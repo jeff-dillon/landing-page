@@ -1,3 +1,7 @@
+* {
+    border: 1 solid red;
+}
+
 body {
     font-family: 'roboto';
 }
@@ -12,6 +16,10 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.header-box, .title-box {
+    width: 900px;
 }
 
 .layout {
@@ -34,11 +42,67 @@ a {
 
 .header-link {
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .header-box {
-    width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.title-pane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+    background-color: #1f2937;
+}
+
+.title-box {
+    display: flex;
+    gap: 20px;
+}
+
+.title-right {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #f9faf8;
+    flex-shrink: 0;
+}
+
+.title-image {
+    width: 300px;
+}
+
+.title-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title-main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.title-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.title-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-start;
 }
