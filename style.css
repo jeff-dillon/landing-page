@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-.header-box, .title-box {
+.header-box, .hero-box {
     width: 900px;
 }
 
@@ -51,7 +51,7 @@ a {
     align-items: center;
 }
 
-.title-pane {
+.hero-pane {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,12 +59,12 @@ a {
     background-color: #1f2937;
 }
 
-.title-box {
+.hero-box {
     display: flex;
     gap: 20px;
 }
 
-.title-right {
+.hero-right {
     width: 350px;
     height: 200px;
     display: flex;
@@ -75,28 +75,28 @@ a {
     flex-shrink: 0;
 }
 
-.title-image {
+.hero-image {
     width: 300px;
 }
 
-.title-left {
+.hero-left {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.title-main-title {
+.hero-main-title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-.title-subtext {
+.hero-subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.title-button {
+.hero-button {
     background-color: #3882f6;
     border-radius: 8px;
     padding: 8px 20px;
