@@ -23,7 +23,7 @@ a {
     flex-direction: column;
 }
 
-.header-box, .hero-box, .info-box {
+.header-box, .hero-box, .info-box, .quote-box {
     width: 900px;
 }
 
@@ -159,4 +159,30 @@ a {
 
 .info-item-text {
     font-size: 14px;
+}
+
+.quote-pane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+    background-color: #e5e7eb;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-attribution {
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: flex-end;
 }
