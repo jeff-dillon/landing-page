@@ -18,13 +18,13 @@ a {
     text-decoration: none;
 }
 
-.header-box, .hero-box {
-    width: 900px;
-}
-
 .layout {
     display: flex;
     flex-direction: column;
+}
+
+.header-box, .hero-box, .info-box {
+    width: 900px;
 }
 
 .header {
@@ -105,4 +105,58 @@ a {
     font-weight: bold;
     font-size: 18px;
     align-self: flex-start;
+}
+
+.info-pane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+    background-color: #f9faf8;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.info-item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info-item-image {
+    border-radius: 8px;
+    border-color: #3882f6;
+    border-style: solid;
+    font-size: 22px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.info-item-image-text {
+    text-align: center;
+}
+
+.info-item-text {
+    font-size: 14px;
 }
