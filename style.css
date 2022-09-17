@@ -1,4 +1,44 @@
+body {
+    font-family: 'roboto';
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .layout {
     display: flex;
     flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    padding: 8px;
+    justify-content: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-link {
+    color: #e5e7eb;
+}
+
+.header-box {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
