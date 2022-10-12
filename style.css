@@ -23,7 +23,7 @@ a {
     flex-direction: column;
 }
 
-.header-box, .hero-box, .info-box, .quote-box {
+.header-box, .hero-box, .info-box, .quote-box, action-box {
     width: 900px;
 }
 
@@ -143,9 +143,8 @@ a {
 
 .info-item-image {
     border-radius: 8px;
-    border-color: #3882f6;
-    border-style: solid;
-    font-size: 22px;
+    /* border-color: #3882f6; */
+    /* border-style: solid; */
     height: 150px;
     display: flex;
     justify-content: center;
@@ -154,7 +153,12 @@ a {
 }
 
 .info-item-image-text {
+    font-size: 22px;
     text-align: center;
+}
+
+.info-item-image-graphic {
+    height: 145px;
 }
 
 .info-item-text {
@@ -185,4 +189,22 @@ a {
     font-weight: bold;
     font-size: 20px;
     justify-content: flex-end;
+}
+
+.action-pane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+    background-color: #f9faf8;
+}
+
+.action-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.action-button {
+    align-self: flex-start;
 }
