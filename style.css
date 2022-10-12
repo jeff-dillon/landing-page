@@ -1,5 +1,6 @@
 * {
-    border: 1 solid red;
+    border:0px;
+    padding:0px;
 }
 
 body {
@@ -201,10 +202,46 @@ a {
 
 .action-box {
     display: flex;
-    flex-direction: column;
+    width: 900px;
+    height: 200px;
+    background-color: #3882f6;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 8px;
     gap: 20px;
 }
 
 .action-button {
-    align-self: flex-start;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.action-left {
+    width: 400px;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color: #f9faf8;
+}
+
+.copyright {
+    font-size: 10px;
 }
